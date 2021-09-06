@@ -8,9 +8,10 @@ Go to the [Google Drive repo](https://drive.google.com/drive/folders/1okt4AYElyB
 
 ```
 git clone https://github.com/z5267625/darpa_tc5_json_converter
+cd darpa_tc5_json_converter
 gzip -d ta3-java-consumer.tar.gz
 tar -xvf ta3-java-consumer.tar
-mv convert_to_json.sh /ta3-java-consumer/tc-bbn-kafka/
-cd ta3-java-consumer/tc-bbn-kafka
+mv convert_to_json.sh ta3-java-consumer/tc-bbn-kafka/
+cd ta3-java-consumer/tc-bbn-kafkach
 ./convert_to_json /absolute/path/to/darpa/binaries number/of/files
 ```
