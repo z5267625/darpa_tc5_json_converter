@@ -12,5 +12,5 @@ gzip -d ta3-java-consumer.tar.gz
 tar -xvf ta3-java-consumer.tar
 mv convert_to_json.sh /ta3-java-consumer/tc-bbn-kafka/
 cd ta3-java-consumer/tc-bbn-kafka
-./convert_to-json /absolute/path/to/darpa/binaries number/of/files
+./convert_to_json /absolute/path/to/darpa/binaries number/of/files
 ```
